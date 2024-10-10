@@ -1,0 +1,31 @@
+.c_frame:hover {
+  background-color: rgba(37, 37, 37, 0.116);
+}
+
+.c_frame .c_image {
+  transition: all ease 400ms;
+}
+
+.c_frame:hover .c_image {
+  filter: blur(10px);
+}
+
+.c_frame:hover .c_text {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: white;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  padding: 20px;
+}
