@@ -30,7 +30,7 @@ export const { loadProducts, deleteProduct } = productSlice.actions;
 export const maximumPrice = (state: RootState) => {
   const max = state.product?.products?.reduce(
     (acc, curr) => (curr.number > acc.number ? curr : acc),
-    0
+    {} as TProduct
   );
   return max;
 };

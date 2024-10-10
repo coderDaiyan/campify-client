@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Campify is a ecommerce web application where camping enthusiasist can buy products for camping
+Campify is a ecommerce web application where camping enthusiasis t can buy products for camping
 
 ## Project Description
 

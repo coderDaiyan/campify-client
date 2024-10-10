@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { useState } from "react";
 import { useForm } from "react-hook-form";
@@ -52,7 +53,7 @@ const CreateProduct = () => {
     }
   };
 
-  const onSubmit = async (data) => {
+  const onSubmit = async (data: any) => {
     const id = toast.loading("Creating Product...");
     try {
       const { data: product } = await createProduct({

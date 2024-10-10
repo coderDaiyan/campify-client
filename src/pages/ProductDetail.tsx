@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import { useState } from "react";
 import toast from "react-hot-toast";
 import { FaStar } from "react-icons/fa";
@@ -32,6 +33,7 @@ const ProductDetail = () => {
           <div className="container px-5 py-24 mx-auto">
             <div className="lg:w-4/5 mx-auto flex flex-wrap">
               <div className="lg:w-1/2 w-full lg:h-auto h-64 object-cover">
+                {/* @ts-ignore */}
                 <Magnifier src={currProductImage || product?.images[0]} />
               </div>
               <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">

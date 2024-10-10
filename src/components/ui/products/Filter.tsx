@@ -1,6 +1,6 @@
 const Filter = () => {
   return (
-    <div className="bg-secondary p-10 ">
+    <div className="bg-secondary p-10 `">
       <input
         type="text"
         placeholder="Search "
