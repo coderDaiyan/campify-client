@@ -13,7 +13,7 @@ const Testimonial = () => {
         modules={[Navigation]}
         className=""
       >
-        {[1, 2, 3, 4, 5, 6, 7].map((elm) => (
+        {[1, 2, 3, 4, 5, 6, 7].map(() => (
           <SwiperSlide className="">
             <div className="container border-0 shadow-lg cursor-pointer rounded-2xl p-5 border-red-500  flex items-center">
               <img
